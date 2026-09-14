@@ -1,17 +1,18 @@
 import './App.css'
 import sportWebImage from './assets/sportweb.png'
+import shedImage from './assets/shed.png'
 
 const projects = [
   {
-    name: 'FridgeChef',
-    description: 'A full-stack recipe finder that helps people cook with ingredients they already have.',
+    name: 'Card game "SHED"',
+    description: 'Shed — A web-based implementation of the classic shedding card game, built with Laravel. Features a PvE mode, letting you play solo against a computer-controlled opponent.',
     tools: 'Laravel / PHP / Tailwind',
-    url: 'https://github.com/DavisGalla/fridge-chef',
-    image: null,
+    url: 'https://github.com/DavisGalla/shed.git',
+    image: shedImage,
   },
   {
     name: 'SportWeb',
-    description: 'A sports-focused web application built with Laravel and designed around a clear browsing experience.',
+    description: 'A sports-focused web application wiht a google auth and also google calendar integration built with Laravel and designed around a clear browsing experience.',
     tools: 'Laravel / PHP / Blade',
     url: 'https://github.com/DavisGalla/sportWeb',
     image: sportWebImage,
@@ -31,7 +32,7 @@ function App() {
         <p className="kicker">Computer science student · Latvia</p>
         <h1>Hi, I&apos;m Davis.<br /><span>I build for the web.</span></h1>
         <p className="intro-text">I&apos;m learning by making useful things. I enjoy working with Laravel, PHP, JavaScript, and thoughtful interfaces.</p>
-        <a className="contact-link" href="mailto:hello@example.com">Get in touch <span>→</span></a>
+        <a className="contact-link" href="mailto:davisgalla946@gmail.com">Get in touch <span>→</span></a>
       </section>
 
       <section className="content-section about" id="about">
