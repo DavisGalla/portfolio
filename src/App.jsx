@@ -14,7 +14,7 @@ const projects = [
     name: 'SportWeb',
     description: 'A sports-focused web application wiht a google auth and also google calendar integration built with Laravel and designed around a clear browsing experience.',
     tools: 'Laravel / PHP / Blade',
-    url: 'https://github.com/DavisGalla/sportWeb',
+    url: 'https://github.com/DavisGalla/kvalifikacijasDarbs',
     image: sportWebImage,
   },
 ]
