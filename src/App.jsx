@@ -1,5 +1,5 @@
 import './App.css'
-import sportWebImage from './assets/sportweb.png'
+import sportWebImage from './assets/sportweb_ugraded.png'
 import shedImage from './assets/shed.png'
 
 const projects = [
